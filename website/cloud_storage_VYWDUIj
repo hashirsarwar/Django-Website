@@ -1,0 +1,15 @@
+cloud storage:
+* ability to upload folders along with files (in apps and website)
+* faded files after installation in a new device until files are uploaded
+* search bar to search files and folders
+* special files in special extension folders (in apps)
+* generate link for a file to download
+* provide options to expire that link after a single download or to make it public permanently
+* generate link for a folder
+* provide several options for that link:
+1) a link for group where anyone can access that link and download and upload files (it should be password protected)
+2) link to only upload files to that folder
+3) link to only download files from that folder
+4) show the members of a shared folder and provide an option for the creator of the folder to block a member
+* continuation of files uploading after any interuption (in apps)
+* editor for programmers for some file extensions and then save the edited file (in website)

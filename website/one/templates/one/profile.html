@@ -1,0 +1,16 @@
+logged in as: {{name}}
+<br>
+<a href="/logout">logout</a>
+<br>
+<form method="post" action="">
+	{% csrf_token %}
+	{% include 'one/form-template.html' %}
+	<button type="submit">
+		add file
+	</button>
+</form>
+<br>
+<h3>my files</h3>
+{% for files in content %}
+<a href="{{files.pk}}">{{files.title}}</a>
+{%endfor%}

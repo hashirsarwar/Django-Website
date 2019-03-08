@@ -1,0 +1,9 @@
+{%for field in form%}
+	<div class="popup">
+    {{ field.errors }}
+    </div>
+	<label>{{field.label_tag}}</label>
+	<div>
+		{{field}}
+	</div>
+{%endfor%}

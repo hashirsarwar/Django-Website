@@ -1,0 +1,15 @@
+{%if form.errors%}
+invalid username or password
+{%endif%}
+<form method="post" action="">
+	{% csrf_token %}
+	<h4>login to upload a file</h4>
+	{% include 'one/form-template.html' %}
+	<button type="submit">
+		login
+	</button>
+	<br>
+	<a href="/register">create a new account</a>
+	<br>
+	<a href="/password_reset">forgot my password</a>	
+</form>
